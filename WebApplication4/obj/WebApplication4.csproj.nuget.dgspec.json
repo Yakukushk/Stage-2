@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\source\\repos\\WebApplication4\\WebApplication4\\WebApplication4.csproj": {}
+    "C:\\Users\\Administrator\\source\\repos\\WebApplication4\\Stage-2\\WebApplication4\\WebApplication4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\source\\repos\\WebApplication4\\WebApplication4\\WebApplication4.csproj": {
+    "C:\\Users\\Administrator\\source\\repos\\WebApplication4\\Stage-2\\WebApplication4\\WebApplication4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\WebApplication4\\WebApplication4\\WebApplication4.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\WebApplication4\\Stage-2\\WebApplication4\\WebApplication4.csproj",
         "projectName": "WebApplication4",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\WebApplication4\\WebApplication4\\WebApplication4.csproj",
+        "projectPath": "C:\\Users\\Administrator\\source\\repos\\WebApplication4\\Stage-2\\WebApplication4\\WebApplication4.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\source\\repos\\WebApplication4\\WebApplication4\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\source\\repos\\WebApplication4\\Stage-2\\WebApplication4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,9 +44,23 @@
               "target": "Package",
               "version": "[6.0.5, )"
             },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.14.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
             },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",

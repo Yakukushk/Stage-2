@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Comics Shop</title>
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+    <h1>In Shop</h1>
+    <h3>Add Category</h3>
+    <form action="javascript:void(0);" method="POST" onsubmit="addCategory()">
+        <input type="text" id="add-name" placeholder="New Category">
+        <input type="text" id="add-desctiption" placeholder="New Description Category">
+        <input type="submit" value="Add">
+    </form>
+    <div id="editCategory">
+        <h3>Edit</h3>
+        <form action="javascript:void(0);" onsubmit="updateCategory()">
+            <input type="hidden" id="edit-id">
+            <input type="text" id="edit-name">
+            <input type="text" id="edit-desctiption">
+            <input type="submit" value="Save">
+            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+    <p id="counter"></p>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+        <tbody id="categories"></tbody>
+    </table>
+    <script src="js/site.js" asp-append-version="true"></script>
+
+    <script type="text/javascript">
+        getCategories();
+    </script>
+    <div id="captainAm">
+        <div class="head"></div>
+        <div class="leftEye"></div>
+        <div class="rightEye"></div>
+        <div class="nose-mouth"></div>
+        <div class="wings"></div>
+        <div class="captain-body"></div>
+        <div class="star"></div>
+        <div class="belt"></div>
+        <div class="leftArm"></div>
+        <div class="Rightarm"></div>
+        <div class="legs"></div>
+        <div class="circles"></div>
+        <div class="shieldStar"></div>
+        <div class="shadow-ground"></div>
+    </div>
+    <div id="captainPl">
+        <div class="captainPlhead"></div>
+        <div class="hair"></div>
+        <div class="Pl-leftEye"></div>
+        <div class="Pl-rightEye"></div>
+        <div class="Pl-mouth-nose"></div>
+        <div class="Pl-body"></div>
+        <div class="lightning"></div>
+        <div class="globe"></div>
+        <div class="Pl-leftArm"></div>
+        <div class="Pl-rightArm"></div>
+        <div class="Pl-superUndies-belt"></div>
+        <div class="Pl-boots"></div>
+    </div>
+    <div class="shadow-groundPl"></div>
+</body>
+</html>
